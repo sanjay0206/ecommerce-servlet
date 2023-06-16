@@ -6,8 +6,8 @@ import java.sql.Statement;
 
 public class DBUtils {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/ecommerce";
-    private static final String DB_USERNAME = "root";
-    private static final String DB_PASSWORD = "java@2021";
+    private static final String DB_USERNAME = "<YOUR_USERNAME>";
+    private static final String DB_PASSWORD = "<YOUR_PASSWORD>";
     private static Connection conn = null;
 
     static {
